@@ -1,0 +1,30 @@
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+.notification {
+  position: fixed;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  opacity: 0.9;
+  z-index: 1000;
+  max-width: 300px;
+}
+
+.notification.success {
+  top: 20px;
+  right: 20px;
+  background-color: #28a745;
+}
+
+.notification.error {
+  top: 20px;
+  left: 20px;
+  background-color: #dc3545;
+}
+
+
+  

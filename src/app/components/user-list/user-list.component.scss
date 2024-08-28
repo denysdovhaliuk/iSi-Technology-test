@@ -1,0 +1,75 @@
+.user-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 30px #523F690D;
+  border-radius: 6px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+}
+
+.create-user-btn {
+  background: #2E8FF0;
+  width: 120px;
+  height: 46px;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px/17px;
+  font-style: Helvetica;
+  box-shadow: 0px 5px 8px #2E8FF029;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: separate;
+
+  border-spacing: 0 4px;
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px 26px;
+  text-align: left;
+  border-bottom: none;
+  letter-spacing: 0;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: Helvetica;
+  letter-spacing: 0px;
+  color: #3F4254;
+}
+
+.user-table th {
+  color: #A4A4B5;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-style: Helvetica;
+  font-size: 13px;
+  font-weight: bold;
+  color: #A4A4B5;
+}
+
+.user-table tbody tr:hover {
+  background-color: #d9dbe2;
+  cursor: pointer;
+}
+
+.user-table tbody tr {
+  transition: background-color 0.3s ease;
+  background: #F4F5F8 0% 0% no-repeat padding-box;
+  height: 56px;
+  margin-bottom: 10px;
+}

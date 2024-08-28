@@ -1,0 +1,87 @@
+.user-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-style: Helvetica;
+  color: #3F4254;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  letter-spacing: 0;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: Helvetica;
+  color: #3F4254;
+}
+
+input, select {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 0;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: Helvetica;
+  color: #3F4254;
+  height: 46px;
+  background: #F3F6F9 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  border: 0;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 12px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.submit-btn {
+  background: #2E8FF0;
+  width: 120px;
+  height: 46px;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px/17px;
+  font-style: Helvetica;
+  box-shadow: 0px 5px 8px #2E8FF029;
+}
+
+.submit-btn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  width: 120px;
+  height: 46px;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px/17px;
+  font-style: Helvetica;
+  box-shadow: 0px 5px 8px #2E8FF029;
+}

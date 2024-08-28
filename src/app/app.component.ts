@@ -1,10 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { NotificationService } from './services/notification.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'user-management';
+  notification$: Observable<{ type: 'success' | 'error' | null, text: string }>;
+
+  constructor(private notificationService: NotificationService) {
+    this.notification$ = this.notificationService.message$;
+  }
+
+  ngOnInit(): void {}
 }
